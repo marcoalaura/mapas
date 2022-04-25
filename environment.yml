@@ -1,0 +1,37 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - configparser
+  - graphviz
+  - black
+  - python=3.8
+  - matplotlib=3.4.3
+  - seaborn
+  - pandas
+  - geopandas
+  - libpysal
+  - mapclassify
+  - statsmodels
+  - networkx
+  - spectra
+  - descartes
+  - scikit-learn
+  - wordcloud
+  - pip
+  - graph-tool
+  - cytoolz
+  - jupyter
+  - ipykernel
+  - gensim
+  - pip:
+    - bezier
+    - scattertext
+    - KDEpy
+    - adjustText
+    - contextily
+    - matplotlib-scalebar
+    - git+https://github.com/mims-harvard/scikit-fusion
+    - pymunk
+    - emoji
+    - xlrd
